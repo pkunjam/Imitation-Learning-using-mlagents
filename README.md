@@ -15,7 +15,9 @@ This project is under development. </br>
 * The vehicle sends out a series of raycasts to detect the nearby objects around. The five raycasts are used around the agent which returns the value of the distance from the object it overlaps with.
 
 * The value of the distance is passed if it hits any object otherwise -1 value is passed if it hits nothing.
-![]()
+
+
+![img](https://github.com/pkunjam/Imitation-Learning-using-mlagents/blob/master/Assets/raycast.PNG)
 
 
         Debug.DrawRay(transform.position, this.transform.forward * visibleDistance, Color.red);
@@ -87,8 +89,7 @@ This project is under development. </br>
 
 * Further this information is sent to the Brain as it needs to know how many observations has been collected.
 
-![]()
-
+![img1](https://github.com/pkunjam/Imitation-Learning-using-mlagents/blob/master/Assets/brain.PNG)
 
 * The AgentAction() method is responsible for performing actions during both training and testing mode.
 
@@ -102,10 +103,14 @@ This project is under development. </br>
 
 * The observations during testing mode is saved in a .demo file which is further used for the training of the agent.
 
-![]()
+![img2](https://github.com/pkunjam/Imitation-Learning-using-mlagents/blob/master/Assets/training.PNG)
+
+* Training Process - 
+
+![img3](https://github.com/pkunjam/Imitation-Learning-using-mlagents/blob/master/Assets/mlagents.PNG)
 
 ## Tools used -
 
 * [Unity](https://unity.com/) - Game Engine used
 * [Visual Studio](https://visualstudio.microsoft.com/) - IDE used for scripting
-* [ML-Agents tookit](https://github.com/Unity-Technologies/ml-agents)
+* [ML-Agents tookit](https://github.com/Unity-Technologies/ml-agents) - Machine Learning Applications
