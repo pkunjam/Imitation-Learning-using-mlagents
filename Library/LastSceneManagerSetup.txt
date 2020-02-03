@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/HoverRacer_Start/Assets/Scenes/_Completed/13 Sequencing the Cutscene/13
+    Sequencing the Cutscene.unity
+  isLoaded: 1
+  isActive: 1
