@@ -1,10 +1,10 @@
 # Imitation Learning using ML-Agents (Under Development)
 
-This project is based on the Imitation learning which uses the interaction between Teacher and Student rather than depending on reward/punishment mechanism accomodated by the Reinforcement learning. </br>
+This project is based on the Imitation learning which uses the interaction between Teacher and Student rather than depending on reward/punishment mechanism accommodated by the Reinforcement learning. </br>
 
 I am using the Hover Racer assets developed by Unity for the application of Imitation Learning using ML-Agents toolkit.
 
-Objective - To automate the vehicle's movement such that it imitates the behaviour of the player.
+Objective - To automate the vehicle's movement such that it imitates the behavior of the player.
 
 This project is under development. </br>
 
